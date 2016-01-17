@@ -11,6 +11,10 @@
 /** MENU OVERRIDES */
 
 
+h2 {
+    color: #000 !important;
+}
+
 #topButton{
 	font-size: 11px;
 	height: 35px;
@@ -65,7 +69,7 @@
 
 
 body{
-	color: #77787b !important;
+	color: #333 !important;
 	background-color: #ffffff;
 }
 
@@ -132,7 +136,7 @@ body{
 #calls-to-action .button {
 	margin: 0 auto;
 	text-align: center;
-	background-color: #1c62c5;
+	background-color: #ee2737
 	color: #ffffff;
 	margin: 5px 5px 15px 19px !important;
 	font-size: 15px;
@@ -143,11 +147,7 @@ body{
 #calls-to-action {
 	padding: 15px 0 30px 0;
 	margin: 0 auto;
-	background-color: #000000;
-	background: -webkit-linear-gradient(#221f1f, #343538); 
-  background: -o-linear-gradient(#221f1f, #343538); 
-  background: -moz-linear-gradient(#221f1f, #343538); 
-  background: linear-gradient(#221f1f, #343538); 
+	background-color: #ee2737;
 }
 
 #calls-to-action .heading-block {
@@ -183,8 +183,7 @@ body{
 #calls-to-action .button {
 	margin: 0 auto;
 	text-align: center;
-	background-color: #1c62c5;
-	color: #ffffff;
+	background-color: #ee2737;
 	margin: 3px 3px 11px 17px;
 	font-size: 13px;
 }
@@ -192,7 +191,7 @@ body{
 
 /** TEAM OVERRIDES */
 section#team {
-	background-color: #F3EEEA;
+	background-color: #eee;
 	margin-top: 0;
 	padding-top: 60px;
 	padding-bottom: 30px;
@@ -315,7 +314,7 @@ section#specials {
 section#tour {
 	margin-top: 0;
 	padding-top: 60px;
-	background-color: white;
+	background-color: #fff;
 }
 
 	.portfolio-item {
@@ -346,7 +345,7 @@ section#reviews {
 	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: #F3EEEA;
+	background-color: #eee;
 }
 
 #reviewsText{
@@ -380,11 +379,7 @@ section#members {
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	border-bottom: 1px solid #e8e8e8;
-	background: -webkit-linear-gradient(#221f1f, #343538); 
-  background: -o-linear-gradient(#221f1f, #343538); 
-  background: -moz-linear-gradient(#221f1f, #343538); 
-  background: linear-gradient(#221f1f, #343538); 
-  color: #ffffff;
+	background-color: #666; 
 }
 
 .pricing-box {
@@ -442,12 +437,12 @@ section#members {
 
 #members a.button {
 	border-bottom: 3px solid rgba(0,0,0,0.15);
-	background-color: #1c62c5;
+	background-color: #ee2737;
 	color: #ffffff;
 }
 
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover {
-	background-color: #1f72e4 !important;;
+	background-color: #ee2737 !important;;
 }
 
 /** SERVICES OVERRIDES */
@@ -456,7 +451,7 @@ section#services {
 	padding-top: 60px;
 	margin-bottom: 0;
 	padding-bottom: 30px;
-	background-color: white;
+	background-color: #eee;
 }
 
 .modal-body a {
@@ -530,6 +525,7 @@ section#location {
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	border-top: 1px solid #e8e8e8;
+	background-color: #fff;
 	padding-bottom: 0px !important;
 }
 
