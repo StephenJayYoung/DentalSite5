@@ -149,7 +149,8 @@ body{
 #calls-to-action {
 	padding: 15px 0 30px 0;
 	margin: 0 auto;
-	background-color: #ee2737;
+	background-color: #fff;
+	color: #333 !important;
 }
 
 #calls-to-action .heading-block {
@@ -160,7 +161,7 @@ body{
 	font-size: 1.25em;
 	line-height: 1;
 	margin 0;
-	color: #ffffff !important;
+	color: #333 !important;
 }
 
 #calls-to-action .heading-block h2 {
@@ -169,11 +170,11 @@ body{
 }
 
 #calls-to-action .heading-block h2 a {
-	color: #ffffff;
+	color: #333;
 }
 
 #calls-to-action .heading-block h2 a:hover, #calls-to-action .heading-block h2 a:active {
-	color: #ffffff !important;
+	color: #333 !important;
 	text-decoration: none;
 }
 
