@@ -431,7 +431,7 @@
 							<h2>Reviews</h2>
 						</div>
 
-							<script type="text/javascript" src="//birdeye.com/embed/v4/145082755333849/3/4132032898"></script>
+							<script type="text/javascript" src="http://birdeye.com/embed/v4/145082755333849/3/4132032898"></script>
 								<div id="bf-revz-widget-4132032898" class="text-center" style="-webkit-overflow-scrolling:touch;">
 									<div class="bf-dv">
 										<span class="bf-spn">provided by <a class="bf-pro" href="null" target="_blank">Tyson Steele Associates</a> | powered by <a class="bf-pwr" href="//birdeye.com" target="_blank">BirdEye</a>
@@ -739,29 +739,47 @@
 				</section>
 				<!-- #SERVICES END -->
 
-				<!-- OFFICE TOUR 1-->
-				<section id="tour">
-					<div class="container clearfix text-center">
 
-						<div class="heading-block center">
-							<h2>Office Tour</h2>
-						</div>
+				<!-- OFFICE TOUR -->
+		<section id="tour" class="boxed-slider">
 
-						<div class="portfolio-single-image">
-							<div class="fslider" data-arrows="true" data-animation="slide">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="#"><img src="images/img/officeTourOneHighRes.jpg" alt=""></a></div>
-										<div class="slide"><a href="#"><img src="images/img/officeTourTwoHighRes.jpg" alt=""></a></div>
-										<div class="slide"><a href="#"><img src="images/img/officeTourThreeHighRes.jpg" alt=""></a></div>
-										<div class="slide"><a href="#"><img src="images/img/officeTourFourHighRes.jpg" alt=""></a></div>
-									</div>
-								</div>
-							</div>
-						</div>
+			<div class="container clearfix">
 
-					</div>
-				</section>
+				<div id="oc-sliderTwo" class="owl-carousel">
+
+					<a href="#"><img src="images/Tour/tour-One.jpg" alt="Slider"></a>
+					<a href="#"><img src="images/Tour/tour-Two.jpg" alt="Slider"></a>
+					<a href="#"><img src="images/Tour/tour-Three.jpg" alt="Slider"></a>
+					<a href="#"><img src="images/Tour/tour-Four.jpg" alt="Slider"></a>
+
+				</div>
+
+				<script>
+
+				jQuery(document).ready(function($) {
+
+					var ocSlider = $("#oc-sliderTwo");
+
+					ocSlider.owlCarousel({
+						items: 1,
+						nav: true,
+						navText : ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+						animateOut: 'slideOutDown',
+						animateIn: 'zoomIn',
+						smartSpeed: 450
+					});
+
+				});
+
+				</script>
+
+			</div>
+
+		</section>
+
+		<!-- OFFICE TOUR END -->
+
+
 
 				<!-- Contact info that will show up in mobile version (above map)-->
 		<section id="location">
@@ -1030,6 +1048,9 @@
 								});
 							});
 						</script>
+
+
+
 
 
 </body>
