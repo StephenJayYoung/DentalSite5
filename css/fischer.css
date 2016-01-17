@@ -61,11 +61,11 @@ h2 {
 }
 
 #primary-menu > ul > li.current a:hover{
-    color: #1c62c5 !important;
+    color: #ee2737 !important;
 }
 
 #primary-menu > ul > li a:hover{
-    color: #1c62c5 !important;
+    color: #ee2737 !important;
 }
 
 
@@ -80,13 +80,13 @@ body{
 	padding: 0 5px;
 }
 
-#primary-menu > ul > li.current a {
+/*#primary-menu > ul > li.current a {
 	color: #A5CB4E;
 }
 
 #primary-menu > ul > li a:hover {
 	color: #A5CB4E;
-}
+}*/
 
 #header.full-header #primary-menu > ul {
 	margin-right: 10px;
@@ -98,7 +98,7 @@ body{
 
 @media (max-width: 991px) {
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li.current a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover a, body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a {
-    color: #1c62c5 !important;
+    color: #ee2737 !important;
 	}
 }	
 
@@ -138,7 +138,7 @@ body{
 #calls-to-action .button {
 	margin: 0 auto;
 	text-align: center;
-	background-color: #ee2737
+	background-color: #ee2737;
 	color: #ffffff;
 	margin: 5px 5px 15px 19px !important;
 	font-size: 15px;
@@ -223,7 +223,7 @@ section#specials {
 	color:;
 }
 .pricing-title {
-    background-color: #1c62c5;
+    background-color: #ee2737;
 }
 
 .pricing-title h3 {
@@ -239,7 +239,7 @@ section#specials {
 }
 
 #professional-smile-whitening .pricing-title {
-	background-color: #1c62c5 !important;
+	background-color: #ee2737 !important;
 }
 
 #specials h2, #specials .heading-block span {
@@ -688,10 +688,10 @@ table {
 	/*CUSTOM BUTTON COLOR*/
 
 	.button{
-		background-color: #1c62c5 !important;
+		background-color: #ee2737 !important;
 	}
 
 
 #gotoTop:hover {
-    background-color: #1c62c5 !important;
+    background-color: #ee2737 !important;
 }
