@@ -3012,6 +3012,7 @@ body.side-panel-open:not(.device-xxs):not(.device-xs):not(.device-sm) .body-over
 	width: 52px;
 	height: 52px;
 	border: 0;
+	
 	border-radius: 0 3px 3px 0;
 	-webkit-transition: background-color .3s ease-in-out;
 	-o-transition: background-color .3s ease-in-out;

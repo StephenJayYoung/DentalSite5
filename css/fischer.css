@@ -205,6 +205,12 @@ section#team {
 	padding-bottom: 30px;
 }
 
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+	background-color: #ee2737 !important;
+	color: #FFF !important;
+	text-decoration: none;
+}
+
 .oc-item, .group-photo-slide {
 	padding: 1em;
 	border: 1px solid #ddd;
@@ -464,6 +470,32 @@ section#services {
 
 .portfolio-desc h3 a:hover {
     color: #444 !important;
+}
+
+@media (max-width: 480px) {
+
+.close {
+    font-size: 90px;
+    line-height: .2;
+    color: #ffffff !important;
+    border-style: solid !important;
+    border-color: #000000 !important;
+    margin: 5px !important;
+    padding-top: 10px !important;
+    padding-bottom: 20px !important;
+    margin-bottom: 10px;
+    border-width: 1.3px !important;
+    background-color: red !important;
+    opacity: .99 !important;
+	}
+}
+	.modal-header {
+  border-bottom: none !important; 
+}
+
+.modal-title {
+    font-size: 19px !important;
+	}
 }
 
 .modal-body a {
