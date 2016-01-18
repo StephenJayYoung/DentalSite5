@@ -11,6 +11,11 @@
 /** MENU OVERRIDES */
 
 
+#logo img {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
 h2 {
     color: #000 !important;
     font-family: 'Raleway', sans-serif;
@@ -382,7 +387,7 @@ section#members {
 	margin-bottom: 0;
 	padding-bottom: 30px;
 	border-bottom: 1px solid #e8e8e8;
-	background-color: #666; 
+	background-color: #666 !important; 
 }
 
 .pricing-box {
@@ -530,12 +535,16 @@ section#links {
 section#location {
 /*	margin-top: 70px;*/
 	margin-bottom: 0;
+	padding-top: 50px;
 	padding-bottom: 30px;
 	border-top: 1px solid #e8e8e8;
 	background-color: #fff;
 	padding-bottom: 0px !important;
 }
 
+#DillsworthLogo{
+	padding-top: 20px;
+}
 
 #contact-form-overlay-mobile{
 	background-color: #FFF;
