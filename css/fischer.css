@@ -425,7 +425,7 @@ section#reviews {
 
 @media (max-width: 768px) {
 	section#reviews {
-		padding-top: 10px;
+/*		padding-top: 10px;*/
 		padding-bottom: 10px;
 		background-image: none;
 		background-size: cover;
