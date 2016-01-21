@@ -348,13 +348,17 @@ section#specials {
 }
 
 /*Use this for adding padding to procing features in mobile */
-/*@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) {
 
-	.pricing-features-responsive: {
-		padding-bottom: 50px !important;
-	}
+#pricingBoxResponsive{
+	padding-bottom: 25px;
+}
 
+/*#pricingBoxTwo{
+	padding-bottom: 25px;
 }*/
+
+}
 
 /** TOUR OVERRIDES */
 section#tour {
