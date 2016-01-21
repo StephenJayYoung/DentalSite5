@@ -167,6 +167,7 @@ body{
 	line-height: 1;
 	margin 0;
 	color: #333 !important;
+	font-family: lato;
 }
 
 #calls-to-action .heading-block h2 {
@@ -181,6 +182,7 @@ body{
 #calls-to-action .heading-block h2 a:hover, #calls-to-action .heading-block h2 a:active {
 	color: #333 !important;
 	text-decoration: none;
+	font-family: lato;
 }
 
 #calls-to-action .heading-block.center:after {
@@ -297,6 +299,7 @@ section#specials {
 .pricing-features li {
 	font-size: 1.5em;
 	font-weight: bold;
+	font-family: lato;
 }
 
 .dark .pricing-price, #new-childrens-cleaning-exam .pricing-price {
@@ -305,6 +308,7 @@ section#specials {
 
 .pricing-price {
     font-weight: bold;
+    font-family: lato;
 }
 
 .dark .pricing-price, .pricing-box.best-price .pricing-price, .pricing-features li, .pricing-box p, .dark .pricing-box.best-price .price-unit, .dark .pricing-box .price-unit {
@@ -620,6 +624,7 @@ label.error { display: none !important; }
 
 .locationText{
 	font-size: 20px !important;
+	font-family: lato !important;
 }
 
 
