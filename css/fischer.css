@@ -655,6 +655,13 @@ label.error { display: none !important; }
 	font-family: lato !important;
 }
 
+@media (max-width: 480px) {
+	.locationText{
+	font-size: 19px !important;
+	font-family: lato !important;
+}
+}
+
 
 #bottomLogo{
 	margin-bottom: 0px !important;
