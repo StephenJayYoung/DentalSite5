@@ -669,7 +669,7 @@ label.error { display: none !important; }
 
 @media (max-width: 480px) {
 	.locationText{
-	font-size: 19px !important;
+	font-size: 17px !important;
 	font-family: "Lato", sans-serif !important;
 }
 }
