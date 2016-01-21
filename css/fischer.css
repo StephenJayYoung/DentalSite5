@@ -61,7 +61,7 @@ h2 {
 }
 
 #primary-menu > ul > li.current a {
-    color: #000000 !important;
+    color: #444 !important;
     text-decoration: none !important;
 }
 
