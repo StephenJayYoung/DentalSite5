@@ -207,6 +207,26 @@ section#team {
 	padding-bottom: 30px;
 }
 
+.team-title h4{
+    font-size: 23px;
+}
+
+.team-content{
+	font-size: 19px;
+}
+
+@media (max-width: 480px) {
+
+	.team-title h4{
+	    font-size: 19px;
+	}
+
+	.team-content{
+		font-size: 17px;
+	}
+
+}	
+
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
 	background-color: #ee2737 !important;
 	color: #FFF !important;
