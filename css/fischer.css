@@ -267,7 +267,7 @@ section#specials {
 	color:;
 }
 .pricing-title {
-    background-color: #67BCDB;
+    background-color: #f25334;
 }
 
 .pricing-title h3 {
@@ -286,7 +286,7 @@ section#specials {
 }
 
 #professional-smile-whitening .pricing-title {
-	background-color: #67BCDB !important;
+	background-color: #f25334 !important;
 }
 
 
@@ -536,7 +536,7 @@ section#services {
     padding-bottom: 20px !important;
     margin-bottom: 10px;
     border-width: 1.3px !important;
-    background-color: red !important;
+    background-color: #f25334 !important;
     opacity: .99 !important;
 	}
 }
@@ -573,18 +573,6 @@ section#services {
 	float: none;
 	width: auto;
 	display: inline;
-}
-
-@media (max-width: 1199px) and (min-width: 992px) {
-	#portfolio:not(.portfolio-1) .portfolio-desc h3 {
-		font-size: 15px;
-	}		
-}
-
-@media (max-width: 991px) {
-	#portfolio:not(.portfolio-1) .portfolio-desc h3 {
-    	font-size: 14px;
-	}	
 }
 
 
@@ -748,6 +736,10 @@ address {
 .tSteeleText{
 	font-size: 15px !important;
 	color: #77787b !important;
+}
+
+#copyrights {
+  background-color: #6DBDD6 !important;
 }
 
 .social-icon i {
