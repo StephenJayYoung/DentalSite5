@@ -263,6 +263,9 @@ section#specials {
 	color: #ffffff;
 }
 
+
+/*@ 768 to 1199*/
+/*skldfhsakjdfhsakljdhfaskljdfhaskldjfhaskljdfhsak*/
 .pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
     color: #000000 !important;
 }
@@ -275,9 +278,7 @@ section#specials {
 	background-color: #ee2737 !important;
 }
 
-#specials h2, #specials .heading-block span {
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
-}
+
 
 #specials .heading-block span {
 	color: #ffffff;
@@ -346,7 +347,14 @@ section#specials {
 	}
 }
 
+/*Use this for adding padding to procing features in mobile */
+/*@media (min-width: 768px) and (max-width: 1199px) {
 
+	.pricing-features-responsive: {
+		padding-bottom: 50px !important;
+	}
+
+}*/
 
 /** TOUR OVERRIDES */
 section#tour {
@@ -643,7 +651,7 @@ label.error { display: none !important; }
 .sm-form-control.error { border-color: #E42C3E; }
 
 .locationText{
-	font-size: 20px !important;
+	font-size: 22px !important;
 	font-family: lato !important;
 }
 
