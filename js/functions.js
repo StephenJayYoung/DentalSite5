@@ -268,7 +268,7 @@ var SEMICOLON = SEMICOLON || {};
 		},
 
 		goToTopScroll: function(){
-			if( $body.hasClass('device-lg') || $body.hasClass('device-md') || $body.hasClass('device-sm') ) {
+			if( $body.hasClass('device-lg') || $body.hasClass('device-md') || $body.hasClass('device-sm')  ) {
 				if($window.scrollTop() > 450) {
 					$goToTopEl.fadeIn();
 				} else {
