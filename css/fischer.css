@@ -67,12 +67,17 @@ h2 {
 }
 
 #primary-menu > ul > li.current a {
-    color: #f25334 !important;
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+#primary-menu > ul > li.current a:hover{
+    color: #F25305 !important;
     text-decoration: none !important;
 }
 
 #primary-menu ul li a {
-    color: #F25305;
+    color: #000000;
 }
 
 
