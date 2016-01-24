@@ -417,6 +417,11 @@ section#reviews {
 	color: red;
 }*/
 
+#customDots {
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
 
 .testi-content p {
 	font-family: "Lato", sans-serif;
