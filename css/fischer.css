@@ -453,7 +453,7 @@ section#members {
 }
 
 .dark .pricing-box.pricing-extended .pricing-action-area {
-    background-color: #5F9EA0;
+    background-color: #eee;
 }
 
 .pricing-box.pricing-extended {
@@ -478,15 +478,15 @@ section#members {
 }
 
 #membersSign {
-	color: #ffffff !important;
+	color: #ee2737 !important;
 }
 
 #membersMonth {
-	color: #ffffff !important;
+	color: #ee2737 !important;
 }
 
 .members-pricing strong {
-	color: #ffffff !important;
+	color: #ee2737 !important;
 }
 
 .price-tenure {
@@ -495,7 +495,7 @@ section#members {
 }
 
 .dark .pricing-box.pricing-extended .pricing-meta {
-    color: #ffffff !important;
+    color: #ee2737 !important;
 }
 
 .dark .pricing-title {
