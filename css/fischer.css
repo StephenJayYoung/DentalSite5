@@ -685,13 +685,13 @@ label.error { display: none !important; }
 .sm-form-control.error { border-color: #E42C3E; }
 
 .locationText{
-	font-size: 22px !important;
+	font-size: 19px !important;
 	font-family: "Lato", sans-serif !important;
 }
 
 @media (max-width: 480px) {
 	.locationText{
-	font-size: 17px !important;
+	font-size: 16px !important;
 	font-family: "Lato", sans-serif !important;
 }
 }
