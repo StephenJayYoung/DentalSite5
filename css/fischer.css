@@ -263,7 +263,7 @@ section#team {
 }	
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
-	background-color: #f25334 !important;
+	background-color: #000 !important;
 	color: #FFF !important;
 	text-decoration: none;
 }
@@ -442,7 +442,6 @@ section#reviews {
     margin-bottom: 12px;
 }
 
-
 .testi-content p {
 	font-family: "Lato", sans-serif;
 	font-style: normal;
@@ -620,7 +619,7 @@ section#services {
 
 /*Tour Overrides*/
 .owl-theme .owl-dots .owl-dot span {
-	background-color: #f25334 ;
+	background-color: #000 ;
 }
 
 /** LINKS **/
