@@ -115,14 +115,6 @@ body{
 	padding: 0 5px;
 }
 
-/*#primary-menu > ul > li.current a {
-	color: #A5CB4E;
-}
-
-#primary-menu > ul > li a:hover {
-	color: #A5CB4E;
-}*/
-
 #header.full-header #primary-menu > ul {
 	margin-right: 10px;
 	padding-right: 0;
@@ -136,8 +128,6 @@ body{
     color: #f25334 !important;
 	}
 }	
-
-
 
 /** ACTIONS OVERRIDES */
 
@@ -231,9 +221,6 @@ body{
 	background-color: #e59400 !important;
 }
 
-
-
-
 /** TEAM OVERRIDES */
 section#team {
 	background-color: #eee !important;
@@ -260,7 +247,7 @@ section#team {
 		font-size: 17px;
 	}
 
-}	
+}
 
 .owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
 	background-color: #000 !important;
@@ -298,9 +285,6 @@ section#specials {
 	color: #ffffff;
 }
 
-
-/*@ 768 to 1199*/
-/*skldfhsakjdfhsakljdhfaskljdfhaskldjfhaskljdfhsak*/
 .pricing-box.pricing-extended .pricing-meta, .pricing-price, .pricing-price span, .pricing-box.pricing-extended .pricing-action-area .pricing-price span.price-tenure {
     color: #000000 !important;
 }
@@ -312,8 +296,6 @@ section#specials {
 #professional-smile-whitening .pricing-title {
 	background-color: #f25334 !important;
 }
-
-
 
 #specials .heading-block span {
 	color: #ffffff;
@@ -382,17 +364,11 @@ section#specials {
 	}
 }
 
-/*Use this for adding padding to procing features in mobile */
+/*Padding for pricing section in mobile */
 @media (min-width: 768px) and (max-width: 1199px) {
-
-#pricingBoxResponsive{
+	#pricingBoxResponsive{
 	padding-bottom: 25px;
-}
-
-/*#pricingBoxTwo{
-	padding-bottom: 25px;
-}*/
-
+	}
 }
 
 /** TOUR OVERRIDES */
@@ -402,27 +378,27 @@ section#tour {
 	background-color: #fff;
 }
 
-	.portfolio-item {
-		box-sizing: border-box;
-		padding: .6em;
-	    border: 1px solid #ddd;
-	    border-radius: 10px;
-	    background-color: #ffffff;
-	}
+.portfolio-item {
+box-sizing: border-box;
+	padding: .6em;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
 
-	.portfolio-item .portfolio-image, .portfolio-item .portfolio-image a, .portfolio-item .portfolio-image img {
-		box-sizing: border-box;
-		width: 100% !important;
-		max-width: 100%;
-		height: auto !important;
-		display: block;
-	}
+.portfolio-item .portfolio-image, .portfolio-item .portfolio-image a, .portfolio-item .portfolio-image img {
+	box-sizing: border-box;
+	width: 100% !important;
+	max-width: 100%;
+	height: auto !important;
+	display: block;
+}
 
-	.portfolio-desc {
-		margin: 8px 0 0 0;
-		padding: 2px;
-		text-align: center;
-	}
+.portfolio-desc {
+	margin: 8px 0 0 0;
+	padding: 2px;
+	text-align: center;
+}
 
 /** REVIEWS OVERRIDES */
 section#reviews {
@@ -432,10 +408,6 @@ section#reviews {
 	padding-bottom: 30px;
 	background-color: #A2AB58 !important;
 }
-
-/*#reviewsText{
-	color: red;
-}*/
 
 #customDots {
     padding: 12px;
@@ -458,8 +430,8 @@ section#reviews {
 		padding-bottom: 10px;
 		background-image: none;
 		background-size: cover;
-	}	
-}	
+	}
+}
 
 /** MEMBERS OVERRIDES */
 section#members {
@@ -799,35 +771,35 @@ table {
 	width: 100%;
 }
 
-	td, th {
-		padding: 5px;
-	}
+td, th {
+	padding: 5px;
+}
 
-	th {
-		width: 1px;
-		white-space: nowrap;
-		text-align: right;
-	}
+th {
+	width: 1px;
+	white-space: nowrap;
+	text-align: right;
+}
 
-	td {
-		text-align: left;
-	}
+td {
+	text-align: left;
+}
 
-	input, select, textarea {
-		box-sizing: border-box;
-		width: 100%;
-		margin: 2px 0;
-	}
+input, select, textarea {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 2px 0;
+}
 
-	#email-field {
-		display: none;
-	}
+#email-field {
+	display: none;
+}
 
-	/*CUSTOM BUTTON COLOR*/
+/*CUSTOM BUTTON COLOR*/
 
-	.button{
-		background-color: #f25334 !important;
-	}
+.button{
+	background-color: #f25334 !important;
+}
 
 
 #gotoTop:hover {
